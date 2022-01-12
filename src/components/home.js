@@ -4,7 +4,7 @@ import Logo from "./logo";
 import SearchBar from './searchBar';
 import RecentPosts from './recentPosts';
 import { connect } from 'react-redux';
-import actions from 'redux-form/lib/actions';
+import * as actions from "../actions"
 
 class Home extends Component{
   
